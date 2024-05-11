@@ -1,0 +1,105 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/meiriqiandao/list",
+    "pages/meiriqiandao/add-or-update",
+    "pages/meiriqiandao/detail",
+    "pages/jingdiantuijian/list",
+    "pages/jingdiantuijian/add-or-update",
+    "pages/jingdiantuijian/detail",
+    "pages/jingdianfenlei/list",
+    "pages/jingdianfenlei/add-or-update",
+    "pages/jingdianfenlei/detail",
+    "pages/fangyichaxun/list",
+    "pages/fangyichaxun/add-or-update",
+    "pages/fangyichaxun/detail",
+    "pages/meishituijian/list",
+    "pages/meishituijian/add-or-update",
+    "pages/meishituijian/detail",
+    "pages/jiudiantuijian/list",
+    "pages/jiudiantuijian/add-or-update",
+    "pages/jiudiantuijian/detail",
+    "pages/zhoubiantuijian/list",
+    "pages/zhoubiantuijian/add-or-update",
+    "pages/zhoubiantuijian/detail",
+    "pages/fenxiangquan/list",
+    "pages/fenxiangquan/add-or-update",
+    "pages/fenxiangquan/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/discussjingdiantuijian/list",
+    "pages/discussjingdiantuijian/add-or-update",
+    "pages/discussjingdiantuijian/detail",
+    "pages/discussmeishituijian/list",
+    "pages/discussmeishituijian/add-or-update",
+    "pages/discussmeishituijian/detail",
+    "pages/discussjiudiantuijian/list",
+    "pages/discussjiudiantuijian/add-or-update",
+    "pages/discussjiudiantuijian/detail",
+    "pages/discusszhoubiantuijian/list",
+    "pages/discusszhoubiantuijian/add-or-update",
+    "pages/discusszhoubiantuijian/detail",
+    "pages/discussfenxiangquan/list",
+    "pages/discussfenxiangquan/add-or-update",
+    "pages/discussfenxiangquan/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "旅游社交小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#3AEBF1",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/jingdiantuijian/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "景点推荐"
+      },
+      {
+        "pagePath": "pages/meishituijian/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "美食推荐"
+      },
+      {
+        "pagePath": "pages/fenxiangquan/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "分享圈"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
